@@ -15,4 +15,7 @@ export default SideRow
 const SideRowWrap = styled.div`
     display: flex;
     align-items: center;
+    padding: 10px 20px;
+
+
 `
