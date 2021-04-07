@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <HeaderWrapper>
             <div className="header__left">
-                <MenuIcon />
+                <MenuIcon className="menuIcon" />
                 <img
                     src="https://upload.wikimedia.org/wikipedia/commons/9/98/YouTube_Logo.svg"
                     alt=""
@@ -90,5 +90,17 @@ const HeaderWrapper = styled.div`
         & .header__icon{
             margin-right: 8px;
         }
+    }
+
+    .menuIcon:active{
+        background-color: lightgray;
+        transition: 0.3s;
+    }
+    .menuIcon{
+        padding: 10px;
+        margin-left: -10px;
+        margin-right: -15px;
+        border-radius: 25px;
+
     }
 `
