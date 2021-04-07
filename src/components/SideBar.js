@@ -9,9 +9,9 @@ const SideBar = () => {
     return (
 
         <SideWrapper>
-            <SideRow title="Home" icon={<HomeIcon />} />
-            <SideRow title="Trending" icon={<ExploreIcon />} />
-            <SideRow title="Subscribtion" icon={<SubscriptionsIcon />} />
+            <SideRow title="Home" Icon={HomeIcon} />
+            <SideRow title="Trending" Icon={ExploreIcon} />
+            <SideRow title="Subscribtion" Icon={SubscriptionsIcon} />
         </SideWrapper>
 
     )
@@ -20,8 +20,8 @@ const SideBar = () => {
 export default SideBar
 
 const SideWrapper = styled.div`
-    flex: 0.2;
+    flex: 0.12;
     left: 0;
     text-align: left;
-    border: 1px solid blue;
+    
 `

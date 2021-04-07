@@ -16,5 +16,5 @@ export default Content;
 
 const ContextWrap = styled.div`
     flex: 1;
-    border: 1px solid blue;
+    
 `

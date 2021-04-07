@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from "styled-components"
 
-const SideRow = ({ title, icon, ...props }) => {
+const SideRow = ({ title, Icon, ...props }) => {
     return (
-        <SideRowWrap>
-            {icon}
-            <h2> {title}</h2>
+        <SideRowWrap >
+            < Icon className="sideBarRow__icon" />
+            <h2 className="sideBarRow__title"> {title}</h2>
         </SideRowWrap>
     )
 }
@@ -17,5 +17,20 @@ const SideRowWrap = styled.div`
     align-items: center;
     padding: 10px 20px;
 
+    .sideBarRow__icon{
+        color: #606060;
+        font-size: 25px !important;
+    }
 
+    .sideBarRow__title{
+        flex: 1;
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &:hover{
+        background-color: lightgray;
+        cursor: pointer;
+    }
 `
