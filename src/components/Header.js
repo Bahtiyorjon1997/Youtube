@@ -50,6 +50,7 @@ const HeaderWrapper = styled.div`
     top: 0;
     z-index: 100;
     background-color: white;
+    border-bottom: 1px solid lightgray;
 
     .header__logo{
         height: 25px;
@@ -101,6 +102,5 @@ const HeaderWrapper = styled.div`
         margin-left: -10px;
         margin-right: -15px;
         border-radius: 25px;
-
     }
 `

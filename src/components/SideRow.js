@@ -32,5 +32,16 @@ const SideRowWrap = styled.div`
     &:hover{
         background-color: lightgray;
         cursor: pointer;
+        transition: 0.2s;
+
+        & > .sideBarRow__icon{
+            color: red;
+        }
+
+        & > .sideBarRow__title{
+            font-weight: bold;
+        }
     }
+
+
 `

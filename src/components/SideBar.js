@@ -23,5 +23,6 @@ const SideWrapper = styled.div`
     flex: 0.12;
     left: 0;
     text-align: left;
+    z-index: 100;
     
 `
